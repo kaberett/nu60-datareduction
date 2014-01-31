@@ -1,0 +1,164 @@
+                              Nu Plasma Isotope Analysis Program
+
+          Date :  27 November 2013                             Time :  23:29
+
+          Run File : C:\Nu Plasma\Analyses\Std Collector\Mark\Pb_Tl_MR2.nrf
+          Sample   : 2Tl10Pb
+
+          Tau Correction invoked
+          Raw data is stored in file: C:\Nu Plasma\Results\Alex\27-Nov-2013\Data_25554.txt
+
+
+            Axial Masses used : 203.86  
+
+                    Block Number: 1
+
+        208Pb/206Pb raw              2.213506E+00   6.41E-05    19 out of 20  
+        207Pb/206Pb raw              9.245252E-01   2.80E-05    20 out of 20  
+        208Pb/207Pb raw              2.394242E+00   3.58E-05    19 out of 20  
+        206Pb/204Pb raw Hg corr      1.730083E+01   1.68E-03    20 out of 20  
+        207Pb/204Pb raw Hg corr      1.599426E+01   1.51E-03    19 out of 20  
+        208Pb/204Pb raw Hg corr      3.829446E+01   3.63E-03    19 out of 20  
+        205Tl/203Tl  raw             2.440181E+00   1.40E-04    20 out of 20  
+        204Hg/204Pb                  6.373791E-04   2.01E-05    19 out of 20  
+        206Pb/204Pb raw              1.729094E+01   1.49E-03    19 out of 20  
+        207Pb/204Pb raw              1.598505E+01   1.64E-03    20 out of 20  
+        208Pb/204Pb raw              3.827055E+01   3.71E-03    19 out of 20  
+        beta Tl 5/3                  -2.223575E+00  5.86E-03    20 out of 20  
+        beta Pb 8/6                  -2.161194E+00  2.99E-03    19 out of 20  
+        207Pb/206Pb 8/6 exp          9.148741E-01   1.53E-05    20 out of 20  
+        208Pb/207Pb 8/6 exp          2.369408E+00   3.96E-05    20 out of 20  
+        208Pb/206Pb 5/3 exp          2.166453E+00   1.02E-04    20 out of 20  
+        207Pb/206Pb 5/3 exp          9.146081E-01   2.66E-05    20 out of 20  
+        206Pb/204Pb 5/3 exp Hg corr  1.693026E+01   1.91E-03    19 out of 20  
+        207Pb/204Pb 5/3 exp Hg corr  1.548262E+01   1.96E-03    19 out of 20  
+        208Pb/204Pb 5/3 exp Hg corr  3.667642E+01   5.64E-03    20 out of 20  
+        205Tl/203Tl 8/6 exp          2.388906E+00   1.14E-04    20 out of 20  
+        Total Pb Ion Beam            3.081645E+00   2.01E-02    20 out of 20  
+        Total Tl Ion Beam            9.519715E-01   5.99E-03    20 out of 20  
+        Pb/Tl                        3.237034E+00   7.43E-04    20 out of 20  
+        208Pb Ion Beam               1.625735E+00   1.06E-02    20 out of 20  
+        205Tl Ion Beam               6.752495E-01   4.25E-03    20 out of 20  
+        208Pb/205Tl                  2.407542E+00   5.63E-04    20 out of 20  
+
+                    Block Number: 2
+
+            Block data
+        208Pb/206Pb raw              2.213443E+00   1.04E-04    20 out of 20  
+        207Pb/206Pb raw              9.245397E-01   3.70E-05    20 out of 20  
+        208Pb/207Pb raw              2.394070E+00   5.71E-05    19 out of 20  
+        206Pb/204Pb raw Hg corr      1.730518E+01   1.88E-03    18 out of 20  
+        207Pb/204Pb raw Hg corr      1.599839E+01   1.63E-03    19 out of 20  
+        208Pb/204Pb raw Hg corr      3.830151E+01   4.12E-03    19 out of 20  
+        205Tl/203Tl  raw             2.439714E+00   1.62E-04    19 out of 20  
+        204Hg/204Pb                  6.393062E-04   2.11E-05    19 out of 20  
+        206Pb/204Pb raw              1.729279E+01   2.15E-03    19 out of 20  
+        207Pb/204Pb raw              1.598795E+01   1.72E-03    19 out of 20  
+        208Pb/204Pb raw              3.827651E+01   4.29E-03    19 out of 20  
+        beta Tl 5/3                  -2.204093E+00  6.77E-03    19 out of 20  
+        beta Pb 8/6                  -2.158245E+00  4.85E-03    20 out of 20  
+        207Pb/206Pb 8/6 exp          9.149229E-01   2.08E-05    19 out of 20  
+        208Pb/207Pb 8/6 exp          2.369282E+00   5.39E-05    19 out of 20  
+        208Pb/206Pb 5/3 exp          2.166578E+00   1.62E-04    19 out of 20  
+        207Pb/206Pb 5/3 exp          9.146680E-01   4.28E-05    19 out of 20  
+        206Pb/204Pb 5/3 exp Hg corr  1.693768E+01   2.19E-03    19 out of 20  
+        207Pb/204Pb 5/3 exp Hg corr  1.549271E+01   2.15E-03    19 out of 20  
+        208Pb/204Pb 5/3 exp Hg corr  3.669886E+01   6.13E-03    19 out of 20  
+        205Tl/203Tl 8/6 exp          2.388766E+00   1.81E-04    19 out of 20  
+        Total Pb Ion Beam            3.133493E+00   1.08E-02    20 out of 20  
+        Total Tl Ion Beam            9.671978E-01   3.21E-03    20 out of 20  
+        Pb/Tl                        3.239487E+00   4.74E-04    19 out of 20  
+        208Pb Ion Beam               1.653048E+00   5.69E-03    20 out of 20  
+        205Tl Ion Beam               6.860195E-01   2.28E-03    20 out of 20  
+        208Pb/205Tl                  2.409604E+00   3.90E-04    20 out of 20  
+
+            Running total results
+
+        208Pb/206Pb raw              2.213521E+00   5.45E-05    37 out of 40  
+        207Pb/206Pb raw              9.245073E-01   1.96E-05    37 out of 40  
+        208Pb/207Pb raw              2.394156E+00   3.61E-05    38 out of 40  
+        206Pb/204Pb raw Hg corr      1.730289E+01   1.29E-03    38 out of 40  
+        207Pb/204Pb raw Hg corr      1.599668E+01   1.17E-03    39 out of 40  
+        208Pb/204Pb raw Hg corr      3.829888E+01   2.84E-03    39 out of 40  
+        205Tl/203Tl  raw             2.439954E+00   1.12E-04    39 out of 40  
+        204Hg/204Pb                  6.383427E-04   1.44E-05    38 out of 40  
+        206Pb/204Pb raw              1.729131E+01   1.21E-03    37 out of 40  
+        207Pb/204Pb raw              1.598597E+01   1.12E-03    38 out of 40  
+        208Pb/204Pb raw              3.827327E+01   2.74E-03    38 out of 40  
+        beta Tl 5/3                  -2.214084E+00  4.68E-03    39 out of 40  
+        beta Pb 8/6                  -2.161869E+00  2.54E-03    37 out of 40  
+        207Pb/206Pb 8/6 exp          9.148929E-01   1.26E-05    38 out of 40  
+        208Pb/207Pb 8/6 exp          2.369359E+00   3.26E-05    38 out of 40  
+        208Pb/206Pb 5/3 exp          2.166508E+00   7.94E-05    37 out of 40  
+        207Pb/206Pb 5/3 exp          9.146269E-01   2.34E-05    38 out of 40  
+        206Pb/204Pb 5/3 exp Hg corr  1.693340E+01   1.49E-03    37 out of 40  
+        207Pb/204Pb 5/3 exp Hg corr  1.548695E+01   1.66E-03    39 out of 40  
+        208Pb/204Pb 5/3 exp Hg corr  3.668735E+01   4.49E-03    39 out of 40  
+        205Tl/203Tl 8/6 exp          2.388844E+00   8.88E-05    37 out of 40  
+        Total Pb Ion Beam            3.112077E+00   1.14E-02    39 out of 40  
+        Total Tl Ion Beam            9.609318E-01   3.39E-03    39 out of 40  
+        Pb/Tl                        3.238386E+00   4.96E-04    40 out of 40  
+        208Pb Ion Beam               1.641770E+00   6.01E-03    39 out of 40  
+        205Tl Ion Beam               6.815880E-01   2.40E-03    39 out of 40  
+        208Pb/205Tl                  2.408699E+00   3.64E-04    39 out of 40  
+
+                    Block Number: 3
+
+            Block data
+        208Pb/206Pb raw              2.213454E+00   7.95E-05    19 out of 20  
+        207Pb/206Pb raw              9.245125E-01   3.05E-05    20 out of 20  
+        208Pb/207Pb raw              2.394270E+00   5.51E-05    19 out of 20  
+        206Pb/204Pb raw Hg corr      1.731131E+01   1.96E-03    19 out of 20  
+        207Pb/204Pb raw Hg corr      1.600452E+01   1.49E-03    19 out of 20  
+        208Pb/204Pb raw Hg corr      3.831854E+01   3.84E-03    19 out of 20  
+        205Tl/203Tl  raw             2.439942E+00   1.47E-04    19 out of 20  
+        204Hg/204Pb                  6.168194E-04   1.55E-05    19 out of 20  
+        206Pb/204Pb raw              1.729944E+01   2.16E-03    20 out of 20  
+        207Pb/204Pb raw              1.599447E+01   1.54E-03    19 out of 20  
+        208Pb/204Pb raw              3.829448E+01   3.91E-03    19 out of 20  
+        beta Tl 5/3                  -2.213602E+00  6.14E-03    19 out of 20  
+        beta Pb 8/6                  -2.158743E+00  3.71E-03    19 out of 20  
+        207Pb/206Pb 8/6 exp          9.148736E-01   1.47E-05    18 out of 20  
+        208Pb/207Pb 8/6 exp          2.369409E+00   3.80E-05    18 out of 20  
+        208Pb/206Pb 5/3 exp          2.166624E+00   1.21E-04    19 out of 20  
+        207Pb/206Pb 5/3 exp          9.146428E-01   2.83E-05    19 out of 20  
+        206Pb/204Pb 5/3 exp Hg corr  1.693954E+01   2.45E-03    20 out of 20  
+        207Pb/204Pb 5/3 exp Hg corr  1.549333E+01   2.21E-03    20 out of 20  
+        208Pb/204Pb 5/3 exp Hg corr  3.670016E+01   6.24E-03    20 out of 20  
+        205Tl/203Tl 8/6 exp          2.388714E+00   1.35E-04    19 out of 20  
+        Total Pb Ion Beam            3.101774E+00   8.40E-03    20 out of 20  
+        Total Tl Ion Beam            9.578957E-01   2.51E-03    20 out of 20  
+        Pb/Tl                        3.238316E+00   3.41E-04    19 out of 20  
+        208Pb Ion Beam               1.636354E+00   4.43E-03    20 out of 20  
+        205Tl Ion Beam               6.794396E-01   1.78E-03    20 out of 20  
+        208Pb/205Tl                  2.408525E+00   2.65E-04    19 out of 20  
+
+            Running total results
+
+        208Pb/206Pb raw              2.213498E+00   4.47E-05    56 out of 60  
+        207Pb/206Pb raw              9.245091E-01   1.64E-05    57 out of 60  
+        208Pb/207Pb raw              2.394193E+00   3.06E-05    57 out of 60  
+        206Pb/204Pb raw Hg corr      1.730508E+01   1.17E-03    57 out of 60  
+        207Pb/204Pb raw Hg corr      1.599900E+01   1.05E-03    59 out of 60  
+        208Pb/204Pb raw Hg corr      3.830478E+01   2.59E-03    59 out of 60  
+        205Tl/203Tl  raw             2.439950E+00   8.87E-05    58 out of 60  
+        204Hg/204Pb                  6.302967E-04   1.07E-05    57 out of 60  
+        206Pb/204Pb raw              1.729412E+01   1.19E-03    57 out of 60  
+        207Pb/204Pb raw              1.598886E+01   1.07E-03    59 out of 60  
+        208Pb/204Pb raw              3.828050E+01   2.63E-03    59 out of 60  
+        beta Tl 5/3                  -2.213926E+00  3.70E-03    58 out of 60  
+        beta Pb 8/6                  -2.160808E+00  2.09E-03    56 out of 60  
+        207Pb/206Pb 8/6 exp          9.148801E-01   8.93E-06    54 out of 60  
+        208Pb/207Pb 8/6 exp          2.369392E+00   2.31E-05    54 out of 60  
+        208Pb/206Pb 5/3 exp          2.166547E+00   6.64E-05    56 out of 60  
+        207Pb/206Pb 5/3 exp          9.146257E-01   1.72E-05    56 out of 60  
+        206Pb/204Pb 5/3 exp Hg corr  1.693589E+01   1.36E-03    58 out of 60  
+        207Pb/204Pb 5/3 exp Hg corr  1.548984E+01   1.36E-03    59 out of 60  
+        208Pb/204Pb 5/3 exp Hg corr  3.669169E+01   3.70E-03    59 out of 60  
+        205Tl/203Tl 8/6 exp          2.388800E+00   7.42E-05    56 out of 60  
+        Total Pb Ion Beam            3.111097E+00   7.76E-03    58 out of 60  
+        Total Tl Ion Beam            9.606547E-01   2.31E-03    58 out of 60  
+        Pb/Tl                        3.238288E+00   3.33E-04    58 out of 60  
+        208Pb Ion Beam               1.641255E+00   4.09E-03    58 out of 60  
+        205Tl Ion Beam               6.813918E-01   1.64E-03    58 out of 60  
+        208Pb/205Tl                  2.408586E+00   2.45E-04    57 out of 60  
