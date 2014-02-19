@@ -99,6 +99,6 @@ if __name__ == '__main__':
         transposed = transposeData(runNo, data)
         # transpose 'em
         with open('transposeddata.txt', 'a') as f:
+            csvwriter = csv.writer(f)
             for row in transposed[1:] :
-                str_row = str(row)[1:-1]
-                f.write(str_row+'\n')
+                csvwriter.writerow(row)
