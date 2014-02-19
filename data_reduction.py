@@ -28,18 +28,10 @@ def loadData(f):
 
 # I want to automatically stick the sample name in, too.
 def identifySample(f):
-    sampleName = ''
-
     for line in f:
         if "Sample   :" in line:
-            for character in line:
-                if character != ' ':
-                    sampleName += character
-
-    posStart = sampleName.find(':')+1
-    posEnd = sampleName.find('r')-1
-    sampleName = sampleName[posStart:posEnd]
-                    
+            temp = re.split(r':', line)
+            sampleName = str(re.search(r'\b..*\b', temp[1]).group(0))
     return sampleName
 
 ###
@@ -70,10 +62,13 @@ def transposeData(runNo, data, sampleName):
         25,
         26,
     ]:
-        headers.append(data[data_index][0])
-        headers.append('internal precision')
-        data_out.append(float(data[data_index][1]))
-        data_out.append(float(data[data_index][2]))
+        try:
+            headers.append(data[data_index][0])
+            headers.append('internal precision')
+            data_out.append(float(data[data_index][1]))
+            data_out.append(float(data[data_index][2]))
+        except:
+            continue
     return [headers, data_out] # our two rows
 
 if __name__ == '__main__':
@@ -90,15 +85,18 @@ if __name__ == '__main__':
         # pull run number out of filename
         runNo = re.search(r'[0-9][0-9]*', filename).group(0)
 
-        # dump final running totals for the file into a table
+        # do I seriously have to do this in a separate operation because magic?
         with open(filename, 'r') as f:
             sampleName = identifySample(f)
+
+        # dump final running totals for the file into a table
+        with open(filename, 'r') as f:
             data = loadData(f)
 
 
-        transposed = transposeData(runNo, data)
+        transposed = transposeData(runNo, data, sampleName)
         # transpose 'em
-        with open('transposeddata.txt', 'a') as f:
+        with open('transposeddata.csv', 'a') as f:
             csvwriter = csv.writer(f)
             for row in transposed[1:] :
                 csvwriter.writerow(row)
