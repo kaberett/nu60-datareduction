@@ -26,17 +26,33 @@ def loadData(f):
                 continue
     return data
 
+# I want to automatically stick the sample name in, too.
+def identifySample(f):
+    sampleName = ''
+
+    for line in f:
+        if "Sample   :" in line:
+            for character in line:
+                if character != ' ':
+                    sampleName += character
+
+    posStart = sampleName.find(':')+1
+    posEnd = sampleName.find('r')-1
+    sampleName = sampleName[posStart:posEnd]
+                    
+    return sampleName
+
 ###
 # transpose the table
 ###
-def transposeData(runNo, data):
+def transposeData(runNo, data, sampleName):
     transposed = []
     # this ultimately wants to be user-controlled - scrape off the row titles,
     # present as a drop-down list, and let the user choose which to include in
     # the reduced data table, with tickyboxes for whether to include internal
     # precision.
     headers = ['file', 'sample']
-    data_out = [runNo, '']
+    data_out = [runNo, sampleName]
     for data_index in [
         1,
         2,
@@ -76,7 +92,9 @@ if __name__ == '__main__':
 
         # dump final running totals for the file into a table
         with open(filename, 'r') as f:
+            sampleName = identifySample(f)
             data = loadData(f)
+
 
         transposed = transposeData(runNo, data)
         # transpose 'em
